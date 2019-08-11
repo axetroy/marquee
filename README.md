@@ -1,6 +1,5 @@
 
 [![Build Status](https://travis-ci.org/axetroy/marquee.svg?branch=master)](https://travis-ci.org/axetroy/marquee)
-[![Coverage Status](https://coveralls.io/repos/github/axetroy/marquee/badge.svg?branch=master)](https://coveralls.io/github/axetroy/marquee?branch=master)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Prettier](https://img.shields.io/badge/Code%20Style-Prettier-green.svg)](https://github.com/prettier/prettier)
 ![Node](https://img.shields.io/badge/node-%3E=7.6-blue.svg?style=flat-square)
