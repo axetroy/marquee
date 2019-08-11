@@ -5,3 +5,8 @@
 tsconfig.json
 *.log
 .github
+yarn.lock
+bootstrap.jsx
+.travis.yml
+.cache
+doc
