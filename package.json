@@ -1,5 +1,5 @@
 {
-  "name": "marquee",
+  "name": "@axetroy/marquee",
   "version": "0.0.1",
   "description": "Marquee component for Vue.js & React.js",
   "scripts": {
