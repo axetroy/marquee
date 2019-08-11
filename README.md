@@ -7,7 +7,7 @@
 
 ### Marquee component for Vue & React
 
-[online demo](https://axetroy.github.io/marquee)
+[Online Demo](https://axetroy.github.io/marquee)
 
 ### Usage
 
