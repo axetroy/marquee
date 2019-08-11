@@ -5,4 +5,5 @@ yarn.lock
 dist
 react/*.js*
 vue/*.js*
+*.d.ts
 doc

@@ -5,12 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "npm run clean && npm run build:react && npm run build:vue",
+    "build": "npm run clean && npm run build:react && npm run build:vue && npm run move:d",
     "build:react": "webpack --config ./webpack.react.config.js --display-error-details --progress --colors",
     "build:vue": "webpack --config ./webpack.vue.config.js --display-error-details --progress --colors",
     "build:website": "rm -rf ./doc && parcel build index.html -d ./doc --public-url /marquee",
     "deploy": "npm run build:website && npx gh-pages -d ./doc",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "move:d": "cp ./dist/react/index.d.ts ./react/index.d.ts && cp ./dist/vue/index.vue.d.ts ./vue/index.d.ts"
   },
   "devDependencies": {
     "@types/react": "^16.9.1",
