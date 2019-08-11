@@ -1,6 +1,6 @@
 *.config.js
 *.vue
-*.ts*
+*.tsx
 *.html
 tsconfig.json
 *.log
@@ -10,3 +10,4 @@ bootstrap.jsx
 .travis.yml
 .cache
 doc
+dist
