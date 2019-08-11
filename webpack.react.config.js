@@ -3,7 +3,7 @@ const path = require("path");
 // webpack.config.js
 const webpackConfig = {
   entry: {
-    marquee: path.join(__dirname, "react", "marquee.tsx")
+    index: path.join(__dirname, "react", "index.tsx")
   },
   output: {
     path: path.join(__dirname, "react"),

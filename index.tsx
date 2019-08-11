@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Marquee } from "./react/marquee";
+import Marquee from "./react";
 
 interface AppPropsInfo {}
 

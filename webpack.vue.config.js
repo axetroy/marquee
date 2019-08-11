@@ -4,7 +4,7 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin");
 // webpack.config.js
 const webpackConfig = {
   entry: {
-    marquee: path.join(__dirname, "vue", "marquee.vue")
+    index: path.join(__dirname, "vue", "index.vue")
   },
   output: {
     path: path.join(__dirname, "vue"),

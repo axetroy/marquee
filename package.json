@@ -8,7 +8,8 @@
     "build": "npm run clean && npm run build:react && npm run build:vue",
     "build:react": "webpack --config ./webpack.react.config.js --display-error-details --progress --colors",
     "build:vue": "webpack --config ./webpack.vue.config.js --display-error-details --progress --colors",
-    "build:website": "rm -rf ./doc && parcel build index.html -d ./doc --public-url /marquee && npx gh-pages -d ./doc",
+    "build:website": "rm -rf ./doc && parcel build index.html -d ./doc --public-url /marquee",
+    "deploy": "npm run build:website && npx gh-pages -d ./doc",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {

@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Marquee from "./vue/marquee.vue";
+import Marquee from "./vue/index.vue";
 
 export default Vue.extend({
   components: {
