@@ -4,3 +4,4 @@
 *.html
 tsconfig.json
 *.log
+.github
