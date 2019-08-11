@@ -1,0 +1,39 @@
+{
+  "name": "marquee",
+  "version": "0.0.1",
+  "description": "Marquee component for Vue.js & React.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "npm run clean && npm run build:react && npm run build:vue",
+    "build:react": "webpack --config ./webpack.react.config.js --display-error-details --progress --colors",
+    "build:vue": "webpack --config ./webpack.vue.config.js --display-error-details --progress --colors",
+    "build:website": "rm -rf ./doc && parcel build index.html -d ./doc --public-url /marquee && npx gh-pages -d ./doc",
+    "clean": "rm -rf ./dist"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/webpack": "^4.32.1",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "ts-loader": "^6.0.4",
+    "tslib": "^1.10.0",
+    "typescript": "3.5.2",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "vue": "^2.6.10"
+  }
+}

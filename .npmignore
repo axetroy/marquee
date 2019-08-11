@@ -1,0 +1,6 @@
+*.config.js
+*.vue
+*.ts*
+*.html
+tsconfig.json
+*.log
