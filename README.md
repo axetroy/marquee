@@ -1,11 +1,9 @@
-
 [![Build Status](https://travis-ci.org/axetroy/marquee.svg?branch=master)](https://travis-ci.org/axetroy/marquee)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Prettier](https://img.shields.io/badge/Code%20Style-Prettier-green.svg)](https://github.com/prettier/prettier)
 ![Node](https://img.shields.io/badge/node-%3E=7.6-blue.svg?style=flat-square)
 [![npm version](https://badge.fury.io/js/%40axetroy%2Fmarquee.svg)](https://badge.fury.io/js/%40axetroy%2Fmarquee)
 ![Size](https://github-size-badge.herokuapp.com/axetroy/marquee.svg)
-
 
 ### Marquee component for Vue & React
 
@@ -40,17 +38,19 @@ Use in React
 
 ```jsx
 import React from "react";
-import Marquee from "@axetroy/marquee/react"
+import Marquee from "@axetroy/marquee/react";
 
-class App extends from React.Component{
-  render () {
-    return <Marquee style={{width: 300}}>
-      Parcel can take any type of file as an entry point, but a HTML or
-      JavaScript file is a good place to start. If you link your main
-      JavaScript file in the HTML using a relative path, Parcel will also
-      process it for you, and replace the reference with a URL to the output
-      file.
-    </Marquee>
+class App extends React.Component {
+  render() {
+    return (
+      <Marquee style={{ width: 300 }}>
+        Parcel can take any type of file as an entry point, but a HTML or
+        JavaScript file is a good place to start. If you link your main
+        JavaScript file in the HTML using a relative path, Parcel will also
+        process it for you, and replace the reference with a URL to the output
+        file.
+      </Marquee>
+    );
   }
 }
 ```
