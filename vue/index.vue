@@ -95,6 +95,11 @@ export default Vue.extend({
     }
 
     this.start();
+  },
+  beforeDestroy() {
+    if (this.timer) {
+      clearTimeout(this.timer as number);
+    }
   }
 });
 </script>

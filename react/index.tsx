@@ -38,6 +38,12 @@ class Marquee extends React.Component<MarqueePropsInfo, MarqueeStateInfo> {
     this.start();
   }
 
+  public componentWillUnmount(): void {
+    if (this.timer) {
+      clearTimeout(this.timer as number);
+    }
+  }
+
   public start(): void {
     if (!this.timer) {
       this._scroll2Left();
