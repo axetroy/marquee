@@ -15,7 +15,7 @@
 import Vue from "vue";
 
 export interface Data {
-  timer: number | null;
+  timer: number | null | NodeJS.Timeout;
 }
 
 export default Vue.extend({
@@ -72,7 +72,10 @@ export default Vue.extend({
       }
     },
     _onmouseLeave(): void {
-      this.start();
+      const { pauseOnHover } = this.$props;
+      if (pauseOnHover) {
+        this.start();
+      }
     }
   },
   mounted() {

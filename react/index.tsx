@@ -82,7 +82,10 @@ class Marquee extends React.Component<MarqueePropsInfo, MarqueeStateInfo> {
   }
 
   private _onmouseLeave() {
-    this.start();
+    const { pauseOnHover } = this.props;
+    if (pauseOnHover) {
+      this.start();
+    }
   }
 
   render() {
