@@ -11,3 +11,4 @@ bootstrap.jsx
 .cache
 doc
 dist
+renovate.json
