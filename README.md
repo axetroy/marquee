@@ -9,9 +9,15 @@
 
 [Online Demo](https://axetroy.github.io/marquee)
 
+### Installation
+
+```bash
+npm install @axetroy/marquee
+```
+
 ### Usage
 
-Use with Vue
+Using with Vue
 
 ```vue
 <template>
@@ -34,7 +40,7 @@ export default {
 </script>
 ```
 
-Use in React
+Using in React
 
 ```jsx
 import React from "react";
@@ -54,6 +60,19 @@ class App extends React.Component {
   }
 }
 ```
+
+### Props
+
+| Prop         | Description             | Defaults |
+| ------------ | ----------------------- | -------- |
+| pauseOnHover | pause when hover on it. | `false`  |
+
+### Methods
+
+| Method  | Description                  |
+| ------- | ---------------------------- |
+| pause() | pause Marquee component.     |
+| start() | (re)start Marquee component. |
 
 ## License
 
