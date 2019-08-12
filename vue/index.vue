@@ -41,15 +41,21 @@ export default Vue.extend({
       const m = ($text.style.transform || "").match(/-?\d+/);
       const offset = m ? +m[0] : 0;
 
+      const style = $text.style;
+
       // if scroll all content. The reset position to the right
       if (offset < 0 && textWidth < -offset) {
-        $text.style.transform = `translateX(${$box.offsetWidth + 1}px)`;
+        // @ts-ignore
+        style.msTransform = `translateX(${$box.offsetWidth + 1}px)`; // for DAMN IE9
+        style.transform = `translateX(${$box.offsetWidth + 1}px)`;
         this.timer = setTimeout(() => {
           clearTimeout(this.timer as number);
           this._scroll2Left();
         }, 1000);
       } else {
-        $text.style.transform = `translateX(${offset - 1}px)`;
+        // @ts-ignore
+        style.msTransform = `translateX(${offset - 1}px)`; // for DAMN IE9
+        style.transform = `translateX(${offset - 1}px)`;
         this.timer = setTimeout(() => {
           clearTimeout(this.timer as number);
           this._scroll2Left();

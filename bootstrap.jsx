@@ -1,3 +1,7 @@
+import "core-js/es6/object"
+import "core-js/es6/set"
+import "core-js/es6/map"
+
 import * as React from "react";
 import Vue from "vue";
 import * as ReactDom from "react-dom";
