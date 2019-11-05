@@ -14,7 +14,7 @@
     "move:d": "cp ./dist/react/index.d.ts ./react/index.d.ts && cp ./dist/vue/index.vue.d.ts ./vue/index.d.ts"
   },
   "devDependencies": {
-    "@babel/polyfill": "7.6.0",
+    "@babel/polyfill": "7.7.0",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
     "@types/webpack": "4.39.8",
