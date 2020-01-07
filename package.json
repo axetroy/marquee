@@ -17,7 +17,7 @@
     "@babel/polyfill": "7.7.0",
     "@types/react": "16.9.17",
     "@types/react-dom": "16.9.4",
-    "@types/webpack": "4.41.1",
+    "@types/webpack": "4.41.2",
     "@vue/component-compiler-utils": "3.1.1",
     "parcel-bundler": "1.12.4",
     "react": "16.12.0",
