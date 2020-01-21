@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "7.8.3",
-    "@types/react": "16.9.17",
+    "@types/react": "16.9.18",
     "@types/react-dom": "16.9.5",
     "@types/webpack": "4.41.2",
     "@vue/component-compiler-utils": "3.1.1",
