@@ -24,7 +24,7 @@
     "react-dom": "16.13.1",
     "ts-loader": "8.0.1",
     "tslib": "2.0.0",
-    "typescript": "3.9.6",
+    "typescript": "3.9.7",
     "vue": "2.6.11",
     "vue-hot-reload-api": "2.3.4",
     "vue-loader": "15.9.3",
