@@ -18,7 +18,7 @@
     "@types/react": "16.9.43",
     "@types/react-dom": "16.9.8",
     "@types/webpack": "4.41.21",
-    "@vue/component-compiler-utils": "3.1.2",
+    "@vue/component-compiler-utils": "3.2.0",
     "parcel-bundler": "1.12.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
