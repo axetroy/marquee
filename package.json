@@ -25,10 +25,10 @@
     "ts-loader": "8.0.2",
     "tslib": "2.0.1",
     "typescript": "3.9.7",
-    "vue": "2.6.11",
+    "vue": "2.6.12",
     "vue-hot-reload-api": "2.3.4",
     "vue-loader": "15.9.3",
-    "vue-template-compiler": "2.6.11",
+    "vue-template-compiler": "2.6.12",
     "webpack": "4.44.1",
     "webpack-cli": "3.3.12"
   },
